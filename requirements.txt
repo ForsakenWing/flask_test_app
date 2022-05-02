@@ -1,2 +1,7 @@
-flask
-python-dotenv
+flask==2.1.2
+python-dotenv~=0.20.0
+
+pip==22.0.4
+wheel==0.37.1
+Jinja2==3.1.2
+setuptools==62.1.0

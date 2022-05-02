@@ -2,6 +2,7 @@ import os
 
 from first_blueprint import v1_bp
 from second_blueprint import alive
+from third_blueprint import version
 from flask import Flask
 from dotenv import load_dotenv
 
@@ -10,6 +11,7 @@ def create_app():
     app = Flask(__name__)
     app.register_blueprint(v1_bp)
     app.register_blueprint(alive)
+    app.register_blueprint(version)
     return app
 
 
